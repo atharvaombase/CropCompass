@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build --repo https://github.com/kshitij-ka/CropCompass.git"
+    "deploy": "gh-pages -d dist --repo https://github.com/kshitij-ka/CropCompass.git"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",
