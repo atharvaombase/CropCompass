@@ -17,8 +17,8 @@ node_modules/
 jspm_packages/
 
 # Environment files
-.env
-.env.*.local
+#.env
+#.env.*.local
 
 # Build outputs
 dist/
