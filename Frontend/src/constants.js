@@ -1,1 +1,1 @@
-export const BACKEND_URL = "http://cropcompass-backend.onrender.com";
+export const BACKEND_URL = "https://crop-compose-backend.onrender.com";
