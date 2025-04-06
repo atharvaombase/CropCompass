@@ -3,11 +3,12 @@ const dotenv = require("dotenv");
 const cloudinary = require("cloudinary").v2;
 const DB_connect = require("./Database/DB_connect.js");
 const app = require("./app.js");
-
+const cors = require("cors");
 // dotenv Configuration
 dotenv.config({
   path: "./.env",
 });
+cors.use({});
 
 cloudinary.config({
   cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
