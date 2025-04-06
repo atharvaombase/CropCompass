@@ -17,8 +17,13 @@ node_modules/
 jspm_packages/
 
 # Environment files
+<<<<<<< HEAD
 # .env
 # .env.*.local
+=======
+#.env
+#.env.*.local
+>>>>>>> 12b10fae66ea243c9f275604482a7adfce11f325
 
 # Build outputs
 dist/
