@@ -56,7 +56,7 @@ const LoginPage = () => {
           <form className="space-y-6" onSubmit={handleLogin}>
             <div>
               <label
-                for="username"
+                htmlFor="username"
                 className="block mb-2 text-sm font-medium text-gray-100 dark:text-white"
               >
                 Email
@@ -72,7 +72,7 @@ const LoginPage = () => {
             </div>
             <div>
               <label
-                for="password"
+                htmlFor="password"
                 className="block mb-2 text-sm font-medium text-gray-100 dark:text-white"
               >
                 Password
@@ -95,7 +95,7 @@ const LoginPage = () => {
                   className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                 />
                 <label
-                  for="remember_me"
+                  htmlFor="remember_me"
                   className="ml-2 text-sm font-medium text-gray-100 dark:text-gray-300"
                 >
                   Remember Me
